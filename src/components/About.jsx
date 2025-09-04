@@ -1,19 +1,37 @@
 export default function About() {
   return (
-    <section id="about" className="grid md:grid-cols-2 gap-12 py-16 px-8 items-center">
-      <div>
-        <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
-        <p className="mt-6 text-gray-600 leading-relaxed">
-          We are a non-profit organization dedicated to making the world a better place
-          by helping those in need. Through education, donations, and volunteering,
-          we aim to bring hope and opportunities to communities worldwide.
-        </p>
-        <button className="mt-8 bg-primary text-white px-6 py-3 rounded hover:bg-primary/90 transition-colors">
-          Learn More
-        </button>
+    <section id="about" className="flex bg-[#F8F4EC] py-32 px-35">
+      <div className="absolute w-1/2 flex">
+        <div className="w-[85%] overflow-hidden">
+          <img
+            src="/about.jpg"
+            alt="About us"
+            className="w-full h-[600px] object-cover rounded-t-[50%]"
+          />
+        </div>
       </div>
-      <div>
-        <img src="/about.jpg" alt="About us" className="rounded-lg shadow" />
+
+      {/* Card */}
+      <div className="bg-white shadow-xl overflow-hidden flex w-full">
+        {/* Texto */}
+        <div className="w-[45%] p-12 flex flex-col transform translate-x-[120%]">
+          <h2 className="font-[recoleta] text-6xl font-bold text-[#0C2117]">
+            About Us
+          </h2>
+          <div className="w-16 h-[2px] bg-[#0C2117] my-6"></div>
+          <p className="font-[objektiv] text-gray-600 leading-relaxed">
+            The legal definition of a charitable organization (and of charity) varies
+            between countries and in some instances regions of the country. The regulation,
+            the tax treatment, and the way in which charity law affects charitable
+            organizations also vary.
+          </p>
+          <a
+            href="#"
+            className="mt-6 inline-block font-[objektiv] text-[#0C2117] font-semibold underline underline-offset-4 hover:text-[#00715D] transition"
+          >
+            Read More
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -15,6 +15,7 @@ function App() {
       <Hero />
       <Estadiostica />
       <Campana />
+      <div className="border mx-35 my-4 border-gray-400"></div>
       <About />
       <Equipo />
       <Testimonio />
