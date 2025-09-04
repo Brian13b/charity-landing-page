@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-[#F9F4E8]">
+    <div className="bg-[#F9F5E8]">
       <Header />
       <Hero />
       <Estadiostica />

@@ -1,4 +1,4 @@
-import CircularTextButton from './CircularTextButton';
+import CircularTextButton from '../utils/CircularTextButton';
 import CurvedArrow from '../utils/CurvedArrow';
 
 export default function Hero() {
@@ -6,11 +6,11 @@ export default function Hero() {
     <section className="grid grid-cols-1 md:grid-cols-2">
       {/* Texto */}
       <div className="flex flex-col justify-top px-35 py-12">
-        <h1 className="font-[averia] text-7xl/21 tracking-wide font-bold text-[#0C2117] mb-8">
+        <h1 className="font-[recoleta] text-7xl/21 tracking-wide font-bold text-[#0C2117] mb-8">
           Charity Is An Act Of A Soft Heart.
         </h1>
 
-        <p className="font-[poppins] text-sm text-[#898989] leading-relaxed max-w-md mb-8">
+        <p className="font-[objektiv] text-md text-[#898989] leading-relaxed max-w-md mb-8">
           We’ve spent the last 5 years helping over 25,00000 <br /> teams just like
           yourself create and sustain <br /> successful online support.
         </p>
@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
 
         {/* Links */}
-        <div className="flex justify-between gap-6 text-[#223534] text-sm font-medium w-full">
+        <div className="flex justify-between text-[#223534] text-sm font-medium w-full">
           <a href="#" className="hover:text-[#016144]">Youtube</a>
           <span>•</span>
           <a href="#" className="hover:text-[#016144]">Facebook</a>

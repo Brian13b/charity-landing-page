@@ -1,14 +1,75 @@
-/* --- primero todos los @import --- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-/* --- luego tailwind --- */
 @import "tailwindcss";
 
-/* --- después tus fuentes locales --- */
+/* Recoleta Fonts */
 @font-face {
-  font-family: "Recoleta";
-  src: url("@/assets/fonts/Recoleta-RegularDEMO.otf") format("opentype");
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/src/assets/fonts/Recoleta/Recoleta-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta Alt';
+  src: url('/src/assets/fonts/Recoleta/RecoletaAlt-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta Alt';
+  src: url('/src/assets/fonts/Recoleta/RecoletaAlt-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Objektiv Fonts */
+@font-face {
+  font-family: 'Objektiv';
+  src: url('/src/assets/fonts/Objektiv/ObjektivMk1_Trial_Rg.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }

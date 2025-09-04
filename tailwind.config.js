@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         recoleta: ["Recoleta", "serif"],
-        averia: ["'Averia Serif Libre'", "serif"],
+        recoletaAlt: ["'Recoleta Alt'", "serif"],
+        objektiv: ["Objektiv", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {

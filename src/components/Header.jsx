@@ -1,16 +1,16 @@
 export default function Header() {
   return (
-    <header className="grid grid-cols-2 w-full h-20">
+    <header className="font-[objektiv] grid grid-cols-2 w-full h-20">
       {/* Logo */}
       <div className="flex items-center justify-start bg-[#F9F5E8] pl-35 pt-8">
-        <h1 className="text-2xl font-bold tracking-tight text-[#223534]">
-          Ta<span className="text-[#223534]">&gt;</span>
+        <h1 className="text-3xl tracking-[0.2em] text-[#0C2117] font-bold">
+          Ta<span className="text-[#00715D]">:</span>Ya
         </h1>
       </div>
 
       {/* Nav */}
       <div className="flex items-center justify-end bg-[#FDD65B] pr-35 pt-8">
-        <nav className="flex gap-15 text-[#003B29] font-bold text-sm">
+        <nav className="flex gap-15 text-[#003B29] font-bold text-md">
           <a href="#about" className="hover:text-[#016144] transition-colors">
             About Us
           </a>
