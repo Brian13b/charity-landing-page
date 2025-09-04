@@ -1,4 +1,5 @@
 import CircularTextButton from './CircularTextButton';
+import CurvedArrow from '../utils/CurvedArrow';
 
 export default function Hero() {
   return (
@@ -19,7 +20,7 @@ export default function Hero() {
           <button className="bg-[#00715D] text-white px-9 py-4 max-h-25 font-medium tracking-wide hover:bg-[#003B29] transition-colors">
             Donate Now
           </button>
-
+          <CurvedArrow />
           <CircularTextButton />
         </div>
 
