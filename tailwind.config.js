@@ -1,23 +1,22 @@
-import { defineConfig } from 'tailwindcss';
-
-export default defineConfig({
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+// tailwind.config.js
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["'Poppins'", "sans-serif"], 
+        recoleta: ["Recoleta", "serif"],
+        averia: ["'Averia Serif Libre'", "serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        'fondo': "#F9F4E8",
-        'primary': "#016144",
-        'secondary': "#FBCE46",
-        'textprimary': "#223534",
-        'textsecondary': "#4B5C5E"
-      }
+        primary: "#00715D",
+        secondary: "#FDD65B",
+        accent: "#003B29",
+        text: "#0C2117",
+        paragraph: "#898989",
+        light: "#F9F5E8",
+      },
     },
   },
   plugins: [],
-});
+};

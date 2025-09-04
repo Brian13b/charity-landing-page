@@ -1,3 +1,14 @@
+/* --- primero todos los @import --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* --- luego tailwind --- */
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* --- después tus fuentes locales --- */
+@font-face {
+  font-family: "Recoleta";
+  src: url("@/assets/fonts/Recoleta-RegularDEMO.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
