@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen px-4 bg-[#F9F4E8]">
+    <div className="bg-[#F9F4E8]">
       <Header />
       <Hero />
       <Estadiostica />
@@ -25,3 +25,4 @@ function App() {
 }
 
 export default App;
+

@@ -1,35 +1,47 @@
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 bg-[#F9F4E8]">
-
-      <div className="flex flex-col justify-center px-8 py-16 md:py-24">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
+    <section className="grid grid-cols-1 md:grid-cols-2">
+      {/* Texto */}
+      <div className="flex flex-col justify-top px-35 py-12">
+        <h1 className="text-7xl font-extrabold text-[#223534] leading-normal mb-8">
           Charity Is An Act Of A Soft Heart.
         </h1>
-        <p className="mt-6 text-gray-600 max-w-md">
-          We’ve spent the last 5 years helping over 25,000 teams just like yours
-          create and sustain successful online support.
+
+        <p className="text-[#555] text-base leading-relaxed max-w-md mb-8">
+          We’ve spent the last 5 years helping over 25,00000 <br /> teams just like
+          yourself create and sustain <br /> successful online support.
         </p>
-        <div className="mt-8">
-          <button className="bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors">
+
+        {/* Botón y video */}
+        <div className="flex items-center mb-12 w-full">
+          <button className="bg-[#016144] text-white px-9 py-4 font-medium hover:bg-[#014c34] transition-colors">
             Donate Now
           </button>
+
+          <div className="relative flex items-center justify-end w-20 h-20 rounded-full">
+            <p className="absolute text-[#555]">Learn about us through this video</p>
+            <button className="bg-[#FBCE46] text-[#223534] w-12 h-12 rounded-full flex items-center justify-center font-bold">
+              ▶
+            </button>
+          </div>
         </div>
 
-        <div className="flex gap-6 mt-8 text-gray-500">
-          <a href="#" className="hover:text-primary">Youtube</a>
-          <span className="mx-2">•</span>
-          <a href="#" className="hover:text-primary">Facebook</a>
-          <span className="mx-2">•</span>
-          <a href="#" className="hover:text-primary">Instagram</a>
+        {/* Links */}
+        <div className="flex justify-between gap-6 text-[#223534] text-sm font-medium w-full">
+          <a href="#" className="hover:text-[#016144]">Youtube</a>
+          <span>•</span>
+          <a href="#" className="hover:text-[#016144]">Facebook</a>
+          <span>•</span>
+          <a href="#" className="hover:text-[#016144]">Instagram</a>
         </div>
       </div>
 
-      <div className="flex bg-[#FDD65C] pr-8 md:pr-12">
+      {/* Imagen */}
+      <div className="bg-[#FBCE46] flex items-end pt-12 pr-35">
         <img
-          src="https://picsum.photos/1200/800"
+          src="../../public/hero.jpg"
           alt="Charity"
-          className="w-full h-auto md:h-full object-cover object-left"
+          className="w-full h-full object-cover object-right"
         />
       </div>
     </section>

@@ -13,7 +13,7 @@ export default defineConfig({
       colors: {
         'fondo': "#F9F4E8",
         'primary': "#016144",
-        'secondary': "#FDD65C",
+        'secondary': "#FBCE46",
         'textprimary': "#223534",
         'textsecondary': "#4B5C5E"
       }
