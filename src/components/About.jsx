@@ -1,32 +1,27 @@
 export default function About() {
   return (
-    <section id="about" className="flex bg-[#F8F4EC] py-32 px-35">
-      <div className="absolute w-1/2 flex">
-        <div className="w-[85%] overflow-hidden">
+    <section id="about" className="relative flex justify-center bg-[#F8F4EC] py-32 px-35 mt-40">
+      <div className="relative bg-white rounded-l-[30%] flex w-full">
+        <div className="absolute -top-43 left-0 w-1/2 h-[600px] rounded-t-full">
           <img
             src="/about.jpg"
             alt="About us"
-            className="w-full h-[600px] object-cover rounded-t-[50%]"
+            className="w-full h-full object-cover object-top rounded-t-full"
           />
         </div>
-      </div>
 
-      {/* Card */}
-      <div className="bg-white shadow-xl overflow-hidden flex w-full">
-        {/* Texto */}
-        <div className="w-[45%] p-12 flex flex-col transform translate-x-[120%]">
-          <h2 className="font-[recoleta] text-6xl font-bold text-[#0C2117]">
+        <div className="ml-auto w-1/2 p-16 flex flex-col justify-center">
+          <h2 className="font-[recoleta] text-7xl font-bold text-[#0C2117]">
             About Us
           </h2>
           <div className="w-16 h-[2px] bg-[#0C2117] my-6"></div>
           <p className="font-[objektiv] text-gray-600 leading-relaxed">
-            The legal definition of a charitable organization (and of charity) varies
-            between countries and in some instances regions of the country. The regulation,
-            the tax treatment, and the way in which charity law affects charitable
-            organizations also vary.
+            The legal definition of a charitable organization (and of charity)
+            varies between countries and in some instances regions of the
+            country. The regulation, the tax treatment, and the way in which
+            charity law affects charitable organizations also vary.
           </p>
-          <a
-            href="#"
+          <a href="#"
             className="mt-6 inline-block font-[objektiv] text-[#0C2117] font-semibold underline underline-offset-4 hover:text-[#00715D] transition"
           >
             Read More
