@@ -6,19 +6,19 @@ export default function Campana() {
   ];
 
   return (
-    <section id="campaign" className="py-20 px-35 bg-[#F9F5E8]">
-      <div className="mx-auto grid md:grid-cols-3 gap-10">
+    <section id="campaign" className="py-20 px-6 md:px-35 bg-[#F9F5E8]">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="md:col-span-2">
-          <h2 className="font-[recoleta] text-6xl md:text-7xl font-bold text-[#003B29] leading-tight">
+          <h2 className="font-[recoleta] text-4xl md:text-6xl md:text-7xl font-bold text-[#003B29] leading-tight">
             Support Your Community
           </h2>
           <div className="w-16 h-[2px] bg-[#0C2117] my-8"></div>
-          <p className="font-[objektiv] text-gray-400 pb-10 max-w-3xl">
+          <p className="font-[objektiv] text-gray-400 pb-10 max-w-full md:max-w-3xl">
             The legal definition of a charitable organization (and of charity) varies
             between countries and in charity law affects charitable organizations also vary.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
             {campaigns.slice(0, 2).map((c, idx) => (
               <div key={idx} className="overflow-hidden">
                 <img
@@ -40,7 +40,7 @@ export default function Campana() {
           <img
             src={campaigns[2].img}
             alt={campaigns[2].title}
-            className="w-full h-full object-cover flex-1"
+            className="w-full h-72 md:h-full object-cover flex-1"
           />
           <div className="bg-white p-10">
             <h3 className="font-[recoleta] text-xl font-semibold text-[#0C2117]">
@@ -60,4 +60,3 @@ export default function Campana() {
     </section>
   );
 }
-

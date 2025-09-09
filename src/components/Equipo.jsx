@@ -8,13 +8,13 @@ export default function Equipo() {
 
   return (
     <section className="py-20 bg-[#F9F5E8] flex flex-col justify-center items-center">
-      <div className="w-full px-35">
-        <h2 className="font-[recoleta] text-7xl md:text-7xl font-bold text-center text-[#003B29]">
+      <div className="w-full px-6 md:px-35">
+        <h2 className="font-[recoleta] text-4xl md:text-7xl font-bold text-center text-[#003B29]">
           Our Team
         </h2>
-        <div className="w-16 h-[2px] bg-[#003B29] mt-6 mb-30 mx-auto"></div>
+        <div className="w-16 h-[2px] bg-[#003B29] mt-6 mb-16 md:mb-30 mx-auto"></div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 my-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-5 my-16">
           {members.map((m, idx) => (
             <div key={idx} className="flex flex-col items-center text-center">
               <div className="relative w-60 h-60 flex items-center justify-center">
@@ -25,9 +25,7 @@ export default function Equipo() {
                   className="relative w-80 h-80 -top-10 rounded-full object-cover z-10"
                 />
               </div>
-              <h3 className="mt-6 font-[recoleta] text-3xl font-semibold text-[#003B29]">
-                {m.name}
-              </h3>
+              <h3 className="mt-6 font-[recoleta] text-3xl font-semibold text-[#003B29]">{m.name}</h3>
               <p className="text-gray-500 font-[objektiv]">{m.role}</p>
             </div>
           ))}

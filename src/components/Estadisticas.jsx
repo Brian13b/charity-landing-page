@@ -7,7 +7,7 @@ export default function Estadisticas() {
   ];
 
   return (
-    <section className="bg-[#00715D] py-16 px-35 grid grid-cols-1 gap-20 md:grid-cols-4">
+    <section className="bg-[#00715D] py-16 px-6 md:px-35 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-20">
       {stats.map((stat, idx) => (
         <div key={idx} className="flex flex-row items-center">
           <img src={stat.img} alt={stat.label} className="w-20 h-20 object-cover mr-2" />
