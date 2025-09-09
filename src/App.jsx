@@ -23,7 +23,6 @@ function App() {
       <Testimonio />
       <CTA />
       <Footer />
-      <div className="border mx-35 my-4 border-gray-400"></div>
     </div>
   );
 }
