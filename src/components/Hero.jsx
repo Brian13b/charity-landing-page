@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="grid grid-cols-1 md:grid-cols-2">
       {/* Texto */}
       <div className="flex flex-col justify-top px-35 py-12">
-        <h1 className="font-[recoleta] text-7xl/21 tracking-wide font-bold text-[#0C2117] mb-8">
+        <h1 className="font-[recoleta] text-7xl/21 tracking-wide font-bold text-[#003B29] mb-8">
           Charity Is An Act Of A Soft Heart.
         </h1>
 

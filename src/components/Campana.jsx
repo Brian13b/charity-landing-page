@@ -9,7 +9,7 @@ export default function Campana() {
     <section id="campaign" className="py-20 px-35 bg-[#F9F5E8]">
       <div className="mx-auto grid md:grid-cols-3 gap-10">
         <div className="md:col-span-2">
-          <h2 className="font-[recoleta] text-6xl md:text-7xl font-bold text-[#0C2117] leading-tight">
+          <h2 className="font-[recoleta] text-6xl md:text-7xl font-bold text-[#003B29] leading-tight">
             Support Your Community
           </h2>
           <div className="w-16 h-[2px] bg-[#0C2117] my-8"></div>
