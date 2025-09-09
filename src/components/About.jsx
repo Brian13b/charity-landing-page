@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="relative flex justify-center bg-[#F8F4EC] py-32 px-35 mt-40">
+    <section id="about" className="relative flex justify-center bg-[#F9F5E8] py-32 px-35 mt-40">
       <div className="relative bg-white rounded-l-[30%] flex w-full">
         <div className="absolute -top-43 left-0 w-1/2 h-[600px] rounded-t-full">
           <img
@@ -11,10 +11,10 @@ export default function About() {
         </div>
 
         <div className="ml-auto w-1/2 p-16 flex flex-col justify-center">
-          <h2 className="font-[recoleta] text-7xl font-bold text-[#0C2117]">
+          <h2 className="font-[recoleta] text-7xl font-bold text-[#003B29]">
             About Us
           </h2>
-          <div className="w-16 h-[2px] bg-[#0C2117] my-6"></div>
+          <div className="w-16 h-[2px] bg-[#003B29] my-6"></div>
           <p className="font-[objektiv] text-gray-600 leading-relaxed">
             The legal definition of a charitable organization (and of charity)
             varies between countries and in some instances regions of the
@@ -22,7 +22,7 @@ export default function About() {
             charity law affects charitable organizations also vary.
           </p>
           <a href="#"
-            className="mt-6 inline-block font-[objektiv] text-[#0C2117] font-semibold underline underline-offset-4 hover:text-[#00715D] transition"
+            className="mt-6 inline-block font-[objektiv] text-[#003B29] font-semibold underline underline-offset-4 hover:text-[#00715D] transition"
           >
             Read More
           </a>

@@ -17,10 +17,13 @@ function App() {
       <Campana />
       <div className="border mx-35 my-4 border-gray-400"></div>
       <About />
+      <div className="border mx-35 my-4 border-gray-400"></div>
       <Equipo />
+      <div className="border mx-35 my-4 border-gray-400"></div>
       <Testimonio />
       <CTA />
       <Footer />
+      <div className="border mx-35 my-4 border-gray-400"></div>
     </div>
   );
 }
