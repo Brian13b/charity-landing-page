@@ -17,7 +17,7 @@ El objetivo es mostrar campañas, estadísticas, equipo y testimonios de manera 
 👉 [Ver online en Vercel](https://charity-landing.vercel.app/)
 
 ## 📷 Captura
-(Agrega aquí una imagen de la landing si lo deseas)
+(charity-landing\public\screenshot.png)
 
 ## 📂 Estructura del proyecto
 - **React + Vite** para el desarrollo rápido y modular

@@ -5,7 +5,7 @@ export default function Testimonial() {
   return (
     <section className="py-20 px-6 md:px-35 text-center">
       <div className="relative bg-white rounded-none md:rounded-l-[30%] flex flex-col md:flex-row w-full mb-20">
-        <div className="absolute bg-[#00715D] text-white w-20 h-20 md:w-30 md:h-30 flex items-center justify-center rounded-full md:rounded-b-full z-10 top-4 left-4 md:top-auto md:left-0">
+        <div className="absolute bg-[#00715D] text-white w-20 h-20 md:w-30 md:h-30 flex items-center justify-center rounded-b-full md:rounded-b-full z-10 top-4 left-4 md:top-auto md:left-0">
           <FaStar className="text-yellow-500 text-lg md:text-xl mr-1 md:mr-2" />
           <span className="font-[recoleta] font-semibold text-lg md:text-xl mt-1">5.0</span>
         </div>
