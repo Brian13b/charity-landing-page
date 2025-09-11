@@ -14,7 +14,7 @@ El objetivo es mostrar campañas, estadísticas, equipo y testimonios de manera 
 - Fácil de mantener y escalar
 
 ## 🚀 Deploy
-👉 [Ver online en Vercel](https://charity-landing.vercel.app/)
+👉 [Ver online en Vercel](https://charity-landing-page-gold.vercel.app/)
 
 ## 📷 Captura
 (charity-landing\public\screenshot.png)
